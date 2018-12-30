@@ -4,9 +4,9 @@
     img-src 'self';
     font-src 'self';
     style-src 'self';
-    frame-ancestors 'none';
+    frame-ancestors 'none'
   X-Frame-Options: DENY
   X-Content-Type-Options: nosniff
   X-XSS-Protection: 
     1;
-    mode=block;
+    mode=block
