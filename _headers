@@ -1,6 +1,17 @@
 /*
-Content-Security-Policy: frame-ancestors 'none'
+Content-Security-Policy: default-src 'self'; img-src 'self'; style-src *; font-src *; frame-ancestors 'none'
 X-Frame-Options: DENY
 X-XSS-Protection: 1; mode=block
 Referrer-Policy: no-referrer
 X-Content-Type-Options: nosniff
+Link: </styles.css>; rel=preload; as=style
+Link: </images/android_vs_ios.jpg>; rel=preload; as=image
+Link: </images/c.jpg>; rel=preload; as=image
+Link: </images/github.png>; rel=preload; as=image
+Link: </images/java.png>; rel=preload; as=image
+Link: </images/me.jpg>; rel=preload; as=image
+Link: </images/python.png>; rel=preload; as=image
+Link: </images/silly.jpg>; rel=preload; as=image
+Link: </images/skydive.jpg>; rel=preload; as=image
+Link: </images/unity.png>; rel=preload; as=image
+Link: </images/web.jpg>; rel=preload; as=image
